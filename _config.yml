@@ -33,7 +33,10 @@ navigation:
     url: /editorials/
   - title: "About"
     url: /about/
-
+# Homepage settings
+home:
+  layout: home
+  nav: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
