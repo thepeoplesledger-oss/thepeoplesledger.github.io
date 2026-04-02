@@ -4,6 +4,7 @@ title: "Investigations"
 permalink: /investigations/
 category: investigations
 author_profile: false
+header: false
 ---
 
 Welcome to **Investigations**, the deep‑dive reporting desk of *The People’s Ledger*.  
