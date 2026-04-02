@@ -128,8 +128,7 @@ defaults:
       nav: true
 
 category_archive:
-  type: liquid
-  path: /categories/
+  enabled: false
 tag_archive:
   type: liquid
   path: /tags/
