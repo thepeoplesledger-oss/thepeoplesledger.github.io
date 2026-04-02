@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: single
 title: "People's Brief"
 permalink: /peoples-brief/
 category: people's brief
