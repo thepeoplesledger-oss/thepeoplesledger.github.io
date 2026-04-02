@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: single
 title: "Ledger File"
 permalink: /ledger-file/
 category: ledger-file
