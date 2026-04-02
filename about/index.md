@@ -27,8 +27,3 @@ The People’s Ledger publishes across four desks:
 - **People’s Brief** — short explainers and public guides  
 - **Investigations** — document‑driven accountability reporting  
 - **Editorials** — opinion and analysis grounded in civic responsibility  
-
-## Founder
-**Lisa Squire**  
-Founder of The People’s Ledger  
-Committed to building institutions that strengthen public power and democratic accountability.
