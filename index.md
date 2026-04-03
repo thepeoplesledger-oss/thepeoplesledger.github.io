@@ -13,15 +13,12 @@ author_profile: false
 {% if primary %}
 <div class="featured-primary" style="margin-bottom: 3rem;">
 
-  <!-- Responsive image: top on mobile, left on desktop -->
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
     
-    <!-- Image -->
     <div style="flex: 1 1 350px; min-width: 300px;">
       <img src="{{ primary.header.image }}" alt="{{ primary.title }}" style="width: 100%; border-radius: 6px;">
     </div>
 
-    <!-- Text -->
     <div style="flex: 2 1 400px; min-width: 300px;">
       <h2 style="margin-top: 0;">{{ primary.title }}</h2>
       <p>{{ primary.excerpt }}</p>
@@ -76,7 +73,7 @@ A structured, evidence‑driven breakdown of a single issue or public decision.
 ---
 
 ## People’s Brief
-Concise, high‑signal summaries of what the public needs to know — fast.
+Short, clear explainers that break down complex issues.
 
 {% assign brief_post = site.categories.peoples-brief | first %}
 {% if brief_post %}
@@ -84,10 +81,23 @@ Concise, high‑signal summaries of what the public needs to know — fast.
 {% endif %}
 
 [Visit People’s Brief →](/peoples-brief/)
+
+---
+
+## Weekly Record
+A roundup of key governance, corporate, and economic developments.
+
+{% assign weekly_post = site.categories.weekly-record | first %}
+{% if weekly_post %}
+**Latest:** [{{ weekly_post.title }}]({{ weekly_post.url }})
+{% endif %}
+
+[Visit Weekly Record →](/weekly-record/)
+
 ---
 
 ## Investigations
-Deep, methodical reporting on systems, institutions, and public decisions.
+Deep, document‑driven reporting on systems, institutions, and public decisions.
 
 {% assign inv_post = site.categories.investigations | first %}
 {% if inv_post %}
