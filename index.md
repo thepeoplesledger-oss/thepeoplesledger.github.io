@@ -64,49 +64,58 @@ author_profile: false
 <!-- ========================= -->
 
 ## Ledger File
-{% assign ledger = site.categories.ledger-file | first %}
-A structured, evidence‑driven breakdown of a single issue or public decision.  
-{% if ledger %}
-**Latest:** [{{ ledger.title }}]({{ ledger.url }})  
+A structured, evidence‑driven breakdown of a single issue or public decision.
+
+{% assign ledger_post = site.categories.ledger-file | first %}
+{% if ledger_post %}
+**Latest:** [{{ ledger_post.title }}]({{ ledger_post.url }})
 {% endif %}
+
 [Visit Ledger File →](/ledger-file/)
 
 ---
 
 ## People’s Brief
-{% assign brief = site.categories.peoples-brief | first %}
-Concise, high‑signal summaries of what the public needs to know — fast.  
-{% if brief %}
-**Latest:** [{{ brief.title }}]({{ brief.url }})  
-{% endif %}
-[Visit People’s Brief →](/peoples-brief/)
+Concise, high‑signal summaries of what the public needs to know — fast.
 
+{% assign brief_post = site.categories.peoples-brief | first %}
+{% if brief_post %}
+**Latest:** [{{ brief_post.title }}]({{ brief_post.url }})
+{% endif %}
+
+[Visit People’s Brief →](/peoples-brief/)
 ---
 
 ## Investigations
-{% assign investigations = site.categories.investigations | first %}
-Deep, methodical reporting on systems, institutions, and public decisions.  
-{% if investigations %}
-**Latest:** [{{ investigations.title }}]({{ investigations.url }})  
+Deep, methodical reporting on systems, institutions, and public decisions.
+
+{% assign inv_post = site.categories.investigations | first %}
+{% if inv_post %}
+**Latest:** [{{ inv_post.title }}]({{ inv_post.url }})
 {% endif %}
+
 [Visit Investigations →](/investigations/)
 
 ---
 
 ## Editorials
-{% assign editorials = site.categories.editorials | first %}
-Considered viewpoints grounded in evidence and written to elevate public understanding.  
-{% if editorials %}
-**Latest:** [{{ editorials.title }}]({{ editorials.url }})  
+Considered viewpoints grounded in evidence and written to elevate public understanding.
+
+{% assign ed_post = site.categories.editorials | first %}
+{% if ed_post %}
+**Latest:** [{{ ed_post.title }}]({{ ed_post.url }})
 {% endif %}
+
 [Visit Editorials →](/editorials/)
 
 ---
 
 ## Projects
-{% assign projects = site.categories.projects | first %}
-Long‑term civic research, data work, and public‑interest initiatives.  
-{% if projects %}
-**Latest:** [{{ projects.title }}]({{ projects.url }})  
+Long‑term civic research, data work, and public‑interest initiatives.
+
+{% assign proj_post = site.categories.projects | first %}
+{% if proj_post %}
+**Latest:** [{{ proj_post.title }}]({{ proj_post.url }})
 {% endif %}
+
 [Visit Projects →](/projects/)
